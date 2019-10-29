@@ -28,3 +28,9 @@ git switch name
 我在合并分支后，发现需要再进行 push,A 分支上才有合并后的内容，不然是合并前的A分支内容
 
     git push origin master
+
+分支管理策略
+--
+Fast Forward（默认是这种策略）
+
+Recursive（通过 --no-ff 即可使用禁用 Fast Forward策略，使用此策略）
