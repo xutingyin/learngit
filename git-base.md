@@ -1,4 +1,4 @@
-创建1支
+创建分支
 ----------
     git checkout -b dev
 git checkout -b dev 等价于执行了下面两条命令
