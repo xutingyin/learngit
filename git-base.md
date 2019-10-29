@@ -6,7 +6,7 @@ git checkout -b dev 等价于执行了下面两条命令
     git branch dev
     git checkout dev
 
-查看分支
+查看1支
 ---
     git branch
 
