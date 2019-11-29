@@ -6,7 +6,7 @@ git checkout -b dev 等价于执行了下面两条命令
     git branch dev
     git checkout dev
 
-查看1支
+查看分支
 ---
     git branch
 
@@ -34,3 +34,11 @@ git switch name
 Fast Forward（默认是这种策略）
 
 Recursive（通过 --no-ff 即可使用禁用 Fast Forward策略，使用此策略）
+
+回退
+--
+git reset --hard HEAD^         回退到上个版本
+
+git reset --hard HEAD~3        回退到前3次提交之前，以此类推，回退到n次提交之前
+
+git reset --hard commit_id     退到/进到 指定commit的sha码
