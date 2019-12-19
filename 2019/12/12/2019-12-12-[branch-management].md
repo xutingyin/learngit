@@ -34,6 +34,6 @@
 ## 删除分支
 本地分支删除： git branch -d dev
 
-远程分支删除： git push origin -delete dev
+远程分支删除： git push origin --delete dev
 
 
